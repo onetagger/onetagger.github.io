@@ -166,3 +166,25 @@ h5 {
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.intro-text {
+  z-index: 99;
+  position: relative;
+}
+
+.intro-lead-in {
+  z-index: 99;
+  position: relative;
+}
+
+#particles-js {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  z-index: 1;
+}
+
+.masthead {
+  z-index: 0;
+  position: relative;
+}
+
