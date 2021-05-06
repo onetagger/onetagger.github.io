@@ -199,7 +199,7 @@ h5 {
   left: 0;
   right: 0;
   overflow: hidden;
-  margin-left: 1px;
+  margin-right: 2px;
 }
 
 .zoom:onload {
