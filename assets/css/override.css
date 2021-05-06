@@ -199,7 +199,7 @@ h5 {
   left: 0;
   right: 0;
   overflow: hidden;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 
 .zoom:onload {
@@ -239,5 +239,14 @@ h5 {
     font-size: 1.75em;
     transition: all .3s;
   }
+}
+
+.logo {
+}
+
+.logo-top {
+  width: 120px;
+  height: auto;
+  margin: 0;
 }
 
