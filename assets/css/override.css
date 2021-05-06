@@ -234,3 +234,10 @@ h5 {
   overflow: hidden;
 }
 
+@media (min-width: 300px) {
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: all .3s;
+  }
+}
+
