@@ -236,3 +236,7 @@ h5 {
   animation: anim 30s infinite;
 }
 
+.visual_scene {
+  overflow: hidden;
+}
+
