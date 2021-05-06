@@ -195,10 +195,9 @@ h5 {
   position: absolute;
   background-repeat: no-repeat;
   min-height: 100vh;
-  top: 0;
   left: 0;
   right: 0;
-  overflow: hidden;
+  overflow: hidden !important;
   margin-right: 3px;
 }
 
@@ -250,8 +249,10 @@ h5 {
   margin: 0;
 }
 
-.visual_scene {
-  margin: 2px;
-  overflow: hidden;
+@media (min-width: 300px) {
+  .visual_scene {
+    margin: 2px;
+    overflow: hidden;
+  }
 }
 
