@@ -190,12 +190,12 @@ h5 {
 
 .zoom {
   background-image: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
-  margin: 0;
+  margin: 10px;
   background-size: cover;
   background-position: center;
   position: absolute;
   background-repeat: no-repeat;
-  min-height: 99vh;
+  min-height: 100vh;
   top: 0;
   left: 0;
   right: 0;
