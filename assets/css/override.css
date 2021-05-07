@@ -30,6 +30,15 @@ a {
   color: #0fc2b2;
 }
 
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(0,210,191,.5) !important;
 }
@@ -180,17 +189,20 @@ h5 {
 }
 
 .zoom {
-  background: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
+  background-image: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
+  margin: auto;
+  width: auto;
   background-size: cover;
   background-position: center;
-  /*min-height: 100vh;*/
-  /*left: 0;*/
-  /*right: 0;*/
-  /*overflow-x: hidden !important;*/
-  /*overflow-y: hidden !important;*/
-  /*position: absolute;*/
-  /*animation: anim 30s infinite;*/
-  /*z-index: -99;*/
+  position: absolute;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  overflow: hidden;
 }
 
 .zoom:onload {
@@ -220,36 +232,11 @@ h5 {
   }
 }
 
-@media (min-width: 300px) {
-  #mainNav .navbar-brand {
-    font-size: 1.75em;
-    transition: all .3s;
-  }
-}
-
-.logo {
-}
-
-.logo-top {
-  width: 120px;
-  height: auto;
-  margin: 0;
+.zoom {
+  animation: anim 30s infinite;
 }
 
 .visual_scene {
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-  height: 100%;
-  width: 20% !important;
-}
-
-.test {
-  background: url(../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08);
-  background-size: cover;
-  background-position: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: 100vh;
-  animation: anim 30s infinite;
+  overflow: hidden;
 }
 
