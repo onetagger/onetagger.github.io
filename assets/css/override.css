@@ -30,15 +30,6 @@ a {
   color: #0fc2b2;
 }
 
-header.masthead {
-  text-align: center;
-  color: #fff;
-  /*background-repeat: no-repeat;*/
-  /*background-attachment: scroll;*/
-  /*background-position: center center;*/
-  /*background-size: cover;*/
-}
-
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(0,210,191,.5) !important;
 }
@@ -156,7 +147,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #ffffff;
 }
@@ -197,8 +188,10 @@ h5 {
   min-height: 100vh;
   left: 0;
   right: 0;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
   margin-right: 3px;
+  animation: anim 30s infinite;
 }
 
 .zoom:onload {
@@ -228,11 +221,6 @@ h5 {
   }
 }
 
-.zoom {
-  animation: anim 30s infinite;
-  overflow: hidden;
-}
-
 @media (min-width: 300px) {
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -249,10 +237,10 @@ h5 {
   margin: 0;
 }
 
-@media (min-width: 300px) {
-  .visual_scene {
-    margin: 2px;
-    overflow: hidden !important;
-  }
+.visual_scene {
+  margin: 2px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  height: 100%;
 }
 
