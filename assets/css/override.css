@@ -236,6 +236,13 @@ h5 {
   margin: 0;
 }
 
+.visual_scene {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  height: 100%;
+  width: 20% !important;
+}
+
 .test {
   background: url(../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08);
   background-size: cover;
@@ -244,9 +251,5 @@ h5 {
   padding-bottom: 100px;
   height: 100vh;
   animation: anim 30s infinite;
-}
-
-.container-test {
-  height: 75vh;
 }
 
