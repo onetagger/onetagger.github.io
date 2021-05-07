@@ -185,7 +185,7 @@ h5 {
 }
 
 .zoom {
-  background-image: url('../../assets/img/index/header-bg-v5.jpg?h=f38c7a60d10f62f8a7238428e54cdff9');
+  background-image: url('../../assets/img/index/bg.jpg?h=2e23ec74ba8540545bbf26ec23dbc2a0');
   background-color: #171918;
   height: 100vh;
   background-position: center;
@@ -199,7 +199,7 @@ h5 {
   transform-origin: 50% 65%;
   transition: transform 8s, filter 3s ease-in-out;
   padding: 0px;
-  background-image: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
+  background-image: url('index/header-bg-v2.jpg');
   width: 100%;
   height: 100vh;
   margin: 0 auto;
