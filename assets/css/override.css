@@ -192,7 +192,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  animation: anim 30s infinite;
+  /*animation: anim 30s infinite;*/
 }
 
 .zoom:onload {
