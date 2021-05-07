@@ -191,6 +191,7 @@ h5 {
   overflow-y: hidden !important;
   position: absolute;
   animation: anim 30s infinite;
+  z-index: -99;
 }
 
 .zoom:onload {
