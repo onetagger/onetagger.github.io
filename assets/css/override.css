@@ -141,7 +141,7 @@ a:hover {
   border: 0px solid #fff;
 }
 
-section#contact {
+section#support {
   background-color: #171918;
   background-repeat: no-repeat;
   background-position: center;
@@ -185,7 +185,7 @@ h5 {
 }
 
 .zoom {
-  background-image: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
+  background-image: url('../../assets/img/index/header-bg-v5.jpg?h=f38c7a60d10f62f8a7238428e54cdff9');
   background-color: #171918;
   height: 100vh;
   background-position: center;
@@ -240,6 +240,17 @@ header.masthead .intro-text {
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+}
+
+@media (min-width: 300px) {
+  .intro-text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    color: white;
+  }
 }
 
 .containerlimit {
