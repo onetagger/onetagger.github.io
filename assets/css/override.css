@@ -193,20 +193,6 @@ h5 {
   animation: anim 30s infinite;
 }
 
-.slide {
-  background-image: url('../../assets/img/index/header-bg-v2.jpg?h=27452da144a5f445aa15af49d7e6cd08');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  left: 0;
-  right: 0;
-  overflow-x: hidden !important;
-  overflow-y: hidden !important;
-  position: absolute;
-  animation: anim 30s infinite;
-}
-
 .zoom:onload {
   transform-origin: 50% 65%;
   transition: transform 8s, filter 3s ease-in-out;
@@ -255,9 +241,5 @@ h5 {
   overflow-y: hidden !important;
   height: 100%;
   width: 20% !important;
-}
-
-.carousel {
-  position: absolute;
 }
 
