@@ -192,7 +192,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /*animation: anim 30s infinite;*/
+  animation: anim 30s infinite;
 }
 
 .zoom:onload {
@@ -222,10 +222,6 @@ h5 {
   }
 }
 
-.visual_scene {
-  overflow: hidden;
-}
-
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
@@ -244,5 +240,10 @@ header.masthead .intro-text {
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+}
+
+.containerlimit {
+  width: 100%;
+  overflow: hidden;
 }
 
