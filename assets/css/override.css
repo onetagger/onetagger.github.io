@@ -189,7 +189,7 @@ h5 {
   right: 0;
   overflow-x: hidden !important;
   overflow-y: hidden !important;
-  /*position: absolute;*/
+  position: absolute;
   animation: anim 30s infinite;
 }
 
@@ -240,5 +240,6 @@ h5 {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
   height: 100%;
+  width: 20% !important;
 }
 
