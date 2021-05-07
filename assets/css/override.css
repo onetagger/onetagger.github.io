@@ -33,10 +33,10 @@ a {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: scroll;*/
+  /*background-position: center center;*/
+  /*background-size: cover;*/
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -156,7 +156,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #ffffff;
 }
