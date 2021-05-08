@@ -253,3 +253,9 @@ header.masthead .intro-text {
   }
 }
 
+@media (min-width: 768px) {
+  .intro-text {
+    margin-top: 5em;
+  }
+}
+
