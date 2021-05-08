@@ -247,3 +247,9 @@ header.masthead .intro-text {
   overflow: hidden;
 }
 
+@media (min-width: 768px) {
+  #headline {
+    font-size: 2.3em !important;
+  }
+}
+
