@@ -263,3 +263,27 @@ header.masthead .intro-text {
   color: #9E9E9E !important;
 }
 
+@media (min-width: 768px) {
+  .testimonials-clean {
+    margin-top: -500px;
+  }
+}
+
+@media (min-width: 576px) {
+  .testimonials-clean {
+    margin-top: -300px;
+  }
+}
+
+@media (min-width: 300px) {
+  .testimonials-clean {
+    margin-top: -250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials-clean {
+    margin-top: -500px;
+  }
+}
+
