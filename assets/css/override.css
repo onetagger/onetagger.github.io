@@ -263,15 +263,9 @@ header.masthead .intro-text {
   color: #9E9E9E !important;
 }
 
-@media (min-width: 768px) {
-  .testimonials-clean {
-    margin-top: -500px;
-  }
-}
-
 @media (min-width: 576px) {
   .testimonials-clean {
-    margin-top: -300px;
+    margin-top: -350px;
   }
 }
 
@@ -282,8 +276,22 @@ header.masthead .intro-text {
 }
 
 @media (min-width: 768px) {
+  #col-adjust {
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  #col-adjust {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 300px) {
   .testimonials-clean {
-    margin-top: -500px;
+    background: rgba(0,0,0,0);
+    padding-bottom: 0px;
+    padding-top: 160px;
   }
 }
 
