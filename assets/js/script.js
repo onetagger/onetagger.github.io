@@ -3,7 +3,7 @@ scrollTo();
 })();
 
 function scrollTo() {
-const links = document.querySelectorAll(’.nav-item’);
+const links = document.querySelectorAll('.nav-link');
 links.forEach(each => (each.onclick = scrollAnchors));
 }
 
