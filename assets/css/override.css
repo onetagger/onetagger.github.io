@@ -61,15 +61,18 @@ header.masthead {
 }
 
 .btn-primary:hover {
-  color: #000;
+  color: var(--bs-gray-100);
   background-color: #00D2BF;
   border-color: #00D2BF;
+  font-family: Dosis, sans-serif;
 }
 
 .btn-primary {
   color: #000;
   background-color: #00D2BF;
   border-color: #00D2BF;
+  font-family: Dosis, sans-serif;
+  font-size: 20px;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
