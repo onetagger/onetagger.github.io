@@ -304,3 +304,9 @@ header.masthead .intro-text {
 div {
 }
 
+section h2.section-heading, section .section-heading.h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
