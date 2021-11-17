@@ -10,16 +10,6 @@ a {
   background-color: #171918 !important;
 }
 
-@media (min-width: 768px) {
-  header.masthead .intro-text .intro-heading {
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  }
-}
-
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #0fc2b2 !important;
   border-color: #0fc2b2 !important;
@@ -28,15 +18,6 @@ a {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #0fc2b2;
-}
-
-header.masthead {
-  text-align: center;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -130,10 +111,6 @@ header.masthead {
   outline: 0;
 }
 
-.video-modal {
-  /*padding-right: 8px !important;*/
-}
-
 a:hover {
   color: #fafafa;
 }
@@ -161,7 +138,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 body {
   overflow-x: hidden;
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #ffffff;
+  color: #1A1C1B;
   margin: 0;
 }
 
@@ -175,18 +152,6 @@ h5 {
   position: relative;
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.masthead {
-  z-index: 0;
-  position: relative;
-}
-
 .zoom {
   background-image: url('../../assets/img/index/bg.jpg?h=2907784e829723bf9f80eb87fc91db3c');
   background-color: #171918;
@@ -196,44 +161,6 @@ h5 {
   background-size: cover;
   position: relative;
   animation: anim 30s infinite;
-}
-
-.zoom:onload {
-  transform-origin: 50% 65%;
-  transition: transform 8s, filter 3s ease-in-out;
-  padding: 0px;
-  background-image: url('index/header-bg-v2.jpg');
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  z-index: -1;
-  position: absolute;
-  background-repeat: no-repeat;
-  filter: brightness(110%);
-  transform: scale(1.1);
-}
-
-@keyframes anim {
-  0% {
-    transform: scale(1,1);
-  }
-  50% {
-    transform: scale(1.05,1.05);
-  }
-  100% {
-    transform: scale(1,1);
-  }
-}
-
-header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }
 
 @media (min-width: 300px) {
@@ -299,9 +226,6 @@ header.masthead .intro-text {
     padding-bottom: 0px;
     padding-top: 160px;
   }
-}
-
-div {
 }
 
 section h2.section-heading, section .section-heading.h2 {
