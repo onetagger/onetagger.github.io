@@ -139,7 +139,7 @@ body {
   overflow-x: hidden;
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #1A1C1B;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 h5 {
@@ -269,5 +269,67 @@ section h2.section-heading, section .section-heading.h2 {
   background-repeat: no-repeat;
   background-size: 1.25rem;
   transition: transform .2s ease-in-out;
+}
+
+@media (min-width: 300px) {
+  h1 {
+    color: rgb(255,255,255);
+    font-family: Dosis, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    color: rgb(255,255,255);
+    font-family: Dosis, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    color: rgb(255,255,255);
+    font-family: Dosis, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    color: rgb(255,255,255);
+    font-family: Dosis, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  h1 {
+    color: rgb(255,255,255);
+    font-family: Dosis, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
 }
 
