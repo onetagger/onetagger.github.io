@@ -17,7 +17,7 @@ a {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #0fc2b2;
+  color: #0fc2b2 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -147,49 +147,9 @@ h5 {
   font-family: "Dosis","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.intro-lead-in {
-  z-index: 99;
-  position: relative;
-}
-
-.zoom {
-  background-image: url('/assets/img/index/bg.jpg?h=2907784e829723bf9f80eb87fc91db3c');
-  background-color: #171918;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  animation: anim 30s infinite;
-}
-
-@media (min-width: 300px) {
-  .intro-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    margin-top: 2em;
-  }
-}
-
 .containerlimit {
   width: 100%;
   overflow: hidden;
-}
-
-@media (min-width: 768px) {
-  #headline {
-    font-size: 2.3em !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .intro-text {
-    margin-top: 5em;
-  }
 }
 
 .text-muted {
@@ -331,24 +291,5 @@ section h2.section-heading, section .section-heading.h2 {
     flex: 0 0 auto;
     width: 25%;
   }
-}
-
-.carousel-control-prev, .carousel-control-next {
-  position: absolute;
-  text-decoration: none;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  background: none;
-  border: 0;
-  opacity: .5;
-  transition: opacity .15s ease;
 }
 
